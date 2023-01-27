@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">ContactDS</string>
+    <string name="Name">ContactDS</string>
+    <string name="Prenom">ContactDS</string>
+    <string name="Adress">ContactDS</string>
+    <string name="Mail">ContactDS</string>
+    <string name="List">ContactDS</string>
+
+
+    <array name="Identity">
+        <item>Pizza</item>
+        <item>Salad</item>
+        <item>Potatoes</item>
+    </array>
 </resources>

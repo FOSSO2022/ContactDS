@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:padding="48dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#c0c0c0"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/img"/>
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile"
+        android:layout_marginTop="22dp"
+        android:background="#fff"
+        android:hint="First Name"
+        android:padding="22dp"
+        android:textColor="#000"
+        android:textColorHint="#4C2E2E"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstname"
+        android:layout_marginTop="22dp"
+        android:background="#fff"
+        android:hint="LastName"
+        android:inputType="textPersonName"
+        android:padding="22dp"
+        android:textColor="#000"
+        android:textColorHint="#4C2E2E" />
+
+    <EditText
+        android:id="@+id/adresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lastName"
+        android:layout_marginTop="22dp"
+        android:background="#fff"
+        android:hint="Adresse"
+        android:inputType="textPostalAddress"
+        android:padding="23dp"
+        android:textColor="#000"
+        android:textColorHint="#4C2E2E" />
+
+    <EditText
+        android:id="@+id/ContactAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adresse"
+        android:layout_marginTop="22dp"
+        android:background="#fff"
+        android:hint="Adress Mail"
+        android:inputType="textEmailAddress"
+        android:padding="22dp"
+        android:textColor="#000"
+        android:textColorHint="#4C2E2E" />
+
+
+</RelativeLayout>
